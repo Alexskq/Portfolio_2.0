@@ -26,19 +26,19 @@ function Header({}: Props) {
         className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
-            url="https://twitter.com"
+            url="https://lewagon-alumni.slack.com/team/U053J8Q0Z50"
             fgColor='gray'
             bgColor='transparent'
              />
 
             <SocialIcon 
-            url="https://www.linkedin.com"
+            url="https://www.linkedin.com/in/alexzoonekynd"
             fgColor='gray'
             bgColor='transparent'
              />
 
             <SocialIcon 
-            url="https://www.github.com"
+            url="https://github.com/Alexskq"
             fgColor='gray'
             bgColor='transparent'
              />
@@ -64,7 +64,7 @@ function Header({}: Props) {
                 fgColor='gray'
                 bgColor='transparent'
                 />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Contact</p>
             </motion.div>
         </Link>
     </header>
