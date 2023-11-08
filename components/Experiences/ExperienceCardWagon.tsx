@@ -79,7 +79,7 @@ export default function ExperienceCard({}: Props) {
                     <li> Dispense du cours sur différents concepts</li>
                     <li> Aide sur les problèmes de la partie pratique</li>
                     <li> Réflexion et supervision sur les projects de fin de batch des étudiants</li>
-                    <li> ( Améliorer l'expérience social apèrs la journée 🍻 ) </li>
+                    <li> ( Améliorer l&apos;expérience social apèrs la journée 🍻 ) </li>
                 </ul>
 
             </div>

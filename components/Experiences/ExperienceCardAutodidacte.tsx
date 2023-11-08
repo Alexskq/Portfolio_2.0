@@ -63,7 +63,7 @@ export default function ExperienceCard({}: Props) {
                         width={400}
                         height={400}
                     /></li>
-                    <li> Réalisation de diverses mini-projects afin d'appréhender les concepts</li>
+                    <li> Réalisation de diverses mini-projects afin d&apos;appréhender les concepts</li>
                     <li> Utilisation de Git & Github {" "}
                     <Image
                         className="h-10 w-10 rounded-full inline-block" src="/GitHub.png"
