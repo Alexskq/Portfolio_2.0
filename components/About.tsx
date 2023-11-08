@@ -40,9 +40,9 @@ export default function About({}: Props) {
                 En quelques{" "} <span className='underline decoration-[#F7AB0A]'>mots</span>{" "}...
             </h4>
             <p className='text-base'>
-                Hello, I'm Alex ! 💯 Passionné par les nouvelles technologies, j'ai toujours eu soif d'apprendre et de créer. Mon voyage en tant que développeur web a commencé avec une simple ligne de code mystérieuse et incompréhensible. 
+                Hello, I&apos;m Alex ! 💯 Passionné par les nouvelles technologies, j&apos;ai toujours eu soif d&apos;apprendre et de créer. Mon voyage en tant que développeur web a commencé avec une simple ligne de code mystérieuse et incompréhensible. 
                 <br/><br/>
-                Après une première carrière dans la santé tourné quand même vers la technologie, j'ai décidé de donner un nouvel élan à ma carrière et me diriger vers le développement web. 🧑‍💻 Après m'être formé en autodidacte sur les bases du développement pendant plusieurs mois, j'ai décidé d'intégrer l'école Le Wagon à Lille afin d'approfondir mes connaissances, de monter en compétences et d'avoir les bonnes pratiques.📚
+                Après une première carrière dans la santé tourné quand même vers la technologie, j&apos;ai décidé de donner un nouvel élan à ma carrière et me diriger vers le développement web. 🧑‍💻 Après m&apos;être formé en autodidacte sur les bases du développement pendant plusieurs mois, j&apos;ai décidé d&apos;intégrer l&apos;école Le Wagon à Lille afin d&apos;approfondir mes connaissances, de monter en compétences et d&apos;avoir les bonnes pratiques.📚
                 <br/><br/>
                 🎯 Chaque jour,je me lance de nouveaux défis pour rester à la pointe des dernières tendances et technologies du web. Mon objectif est de créer des expériences exceptionnelles et intuitives. Si vous souhaitez donner vie à vos idées, parlons-en 💬!
             </p>
