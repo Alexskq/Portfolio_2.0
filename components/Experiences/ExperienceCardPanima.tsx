@@ -82,7 +82,7 @@ export default function ExperienceCard({}: Props) {
 
                 <ul className='list-disc space-y-4 ml-5 text-lg'>
                     <li> Project de fin de formation</li>
-                    <li> Création en collaboration du MVP d'une solution de gestion de magasin autonome ( voir section project ⬇️ )</li>
+                    <li> Création en collaboration du MVP d&apos;une solution de gestion de magasin autonome ( voir section project ⬇️ )</li>
                     <li> Conception user-storie, maquette et implémentation des différentes features</li>
                 </ul>
 

@@ -22,7 +22,7 @@ export default function ExperienceCard({}: Props) {
             />
 
             <div className='px-0 md:px-10'>
-                <h4 className='text-4xl font-light'>Manip' Radiologie</h4>
+                <h4 className='text-4xl font-light'>Manip&apos; Radiologie</h4>
                 <p className='font-bold text-xl mt-1'>Epicura & Tivoli</p>
                 <div className='flex space-x-2 my-2'>
                     {/* Tech use */}
