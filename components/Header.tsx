@@ -26,21 +26,24 @@ function Header({}: Props) {
         className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
-            url="https://twitter.com"
-            fgColor='gray'
+            url="https://lewagon-alumni.slack.com/team/U053J8Q0Z50"
+            fgColor='currentColor'
             bgColor='transparent'
+            className='text-gray-500 hover:animate-ping hover:duration-100'
              />
 
             <SocialIcon 
-            url="https://www.linkedin.com"
+            url="https://www.linkedin.com/in/alexzoonekynd"
             fgColor='gray'
             bgColor='transparent'
+            className='text-gray-500 hover:animate-ping hover:duration-200'
              />
 
             <SocialIcon 
-            url="https://www.github.com"
+            url="https://github.com/Alexskq"
             fgColor='gray'
             bgColor='transparent'
+            className='text-gray-500 hover:animate-ping hover:duration-200'
              />
         </motion.div>
             
@@ -56,15 +59,19 @@ function Header({}: Props) {
                     opacity:1,
                     scale:1,
                 }}
-                transition={{duration: 1.5}}
+                whileHover={{
+                    scale: 1.1,
+                }}
+                transition={{duration: 1}}
                 className='flex flex-row items-center text-gray-300 cursor-pointer'>
                 <SocialIcon 
-                className='cursor-pointer'
                 network='email'
                 fgColor='gray'
                 bgColor='transparent'
+                className='cursor-pointer'
+                
                 />
-                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
+                <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Contact</p>
             </motion.div>
         </Link>
     </header>

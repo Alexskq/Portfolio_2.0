@@ -11,7 +11,8 @@ type Props = {}
 export default function Hero({}: Props) {
     const [text, count] = useTypewriter({
         words: [
-            "Hi, The name's Alex",
+            "Hi, My name's Alex",
+            "<Welcome, To my Portfolio />",
             "Guy-who-loves-Coffee.tsx",
             "<ButLovesToCodeMore>",
         ],
@@ -25,7 +26,7 @@ export default function Hero({}: Props) {
         
             <Image
                 alt="profil picture"
-                src="/profil picture.jpg"
+                src="/profil_wagon.jpg"
                 width={400}
                 height={400}
                 className='relative rounded-full h-32 w-32 mx-auto object-cover'

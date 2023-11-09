@@ -37,9 +37,15 @@ export default function About({}: Props) {
 
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>
-                Here is a{" "} <span className='underline decoration-[#F7AB0A]'>little</span>{" "} background
+                En quelques{" "} <span className='underline decoration-[#F7AB0A]'>mots</span>{" "}...
             </h4>
-            <p className='text-base'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae atque totam vitae numquam soluta animi sequi magnam accusamus ipsum, voluptas, fugit tenetur excepturi inventore rerum. Ipsum, delectus. Quam, quibusdam id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid placeat dolorem consectetur? Expedita quasi neque voluptatem praesentium explicabo, nihil alias accusantium quos pariatur dolore. Dolor repellat nulla voluptatum ipsum incidunt.</p>
+            <p className='text-base'>
+                Hello, I&apos;m Alex ! 💯 Passionné par les nouvelles technologies, j&apos;ai toujours eu soif d&apos;apprendre et de créer. Mon voyage en tant que développeur web a commencé avec une simple ligne de code mystérieuse et incompréhensible. 
+                <br/><br/>
+                Après une première carrière dans la santé tourné quand même vers la technologie, j&apos;ai décidé de donner un nouvel élan à ma carrière et me diriger vers le développement web. 🧑‍💻 Après m&apos;être formé en autodidacte sur les bases du développement pendant plusieurs mois, j&apos;ai décidé d&apos;intégrer l&apos;école Le Wagon à Lille afin d&apos;approfondir mes connaissances, de monter en compétences et d&apos;avoir les bonnes pratiques.📚
+                <br/><br/>
+                🎯 Chaque jour,je me lance de nouveaux défis pour rester à la pointe des dernières tendances et technologies du web. Mon objectif est de créer des expériences exceptionnelles et intuitives. Si vous souhaitez donner vie à vos idées, parlons-en 💬!
+            </p>
         </div>
     </motion.div>
   )
