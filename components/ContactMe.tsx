@@ -30,8 +30,8 @@ function ContactMe({}: Props) {
 
         <div className='flex flex-col space-y-10'>
             <h4 className='text-4xl font-semibold text-center'>
-                I have got just what you need. {" "}
-                <span className='decoration-[#F7AB0A]/50 underline'>Lets talk</span>
+                J&apos;ai ce qu&apos;il vous faut !{" "}
+                <span className='decoration-[#F7AB0A]/50 underline'>Let&apos;s talk...</span>
             </h4>
 
             <div className='space-y-10'>
@@ -58,7 +58,7 @@ function ContactMe({}: Props) {
                 <div className='flex space-x-2'>
                     <input 
                         {...register('name')} 
-                        placeholder="Name"
+                        placeholder="Nom"
                         type="text"
                         className='contactInput'
                     />
@@ -71,7 +71,7 @@ function ContactMe({}: Props) {
 
                 <input 
                     {...register('subject')}
-                    placeholder="Subject" 
+                    placeholder="Sujet" 
                     className='contactInput' 
                     type="text" 
                 />
@@ -83,7 +83,7 @@ function ContactMe({}: Props) {
                     />
                 <button 
                     type='submit'
-                    className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Submit 
+                    className='bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg'>Envoyer 
                 </button>
             </form>
         </div>
