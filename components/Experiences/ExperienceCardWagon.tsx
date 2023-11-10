@@ -75,7 +75,7 @@ export default function ExperienceCard({}: Props) {
                 </div>
                 <p className='uppercase py-5 text-gray-300'> Octobre 2023 - Présent</p>
 
-                <ul className='list-disc space-y-4 ml-5 text-lg'>
+                <ul className='list-disc space-y-1 ml-5 text-lg'>
                     <li> Dispense du cours sur différents concepts</li>
                     <li> Aide sur les problèmes de la partie pratique</li>
                     <li> Réflexion et supervision sur les projects de fin de batch des étudiants</li>

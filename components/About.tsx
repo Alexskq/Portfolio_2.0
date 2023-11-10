@@ -32,18 +32,17 @@ export default function About({}: Props) {
             // width={400}
             // height={400}
             src='/profil picture.jpg'
-            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'
+            className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover  md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px]'
         />
 
         <div className='space-y-10 px-0 md:px-10'>
-            <h4 className='text-4xl font-semibold'>
-                En quelques{" "} <span className='underline decoration-[#F7AB0A]'>mots</span>{" "}...
+            <h4 className='text-4xl font-semibold '>
+                En quelques{" "} 
+                <span className='underline decoration-[#F7AB0A]'>mots</span>{" "}...
             </h4>
             <p className='text-base'>
-                Hello, I&apos;m Alex ! 💯 Passionné par les nouvelles technologies, j&apos;ai toujours eu soif d&apos;apprendre et de créer. Mon voyage en tant que développeur web a commencé avec une simple ligne de code mystérieuse et incompréhensible. 
-                <br/><br/>
+                Hello, I&apos;m Alex ! 💯 Passionné par les nouvelles technologies, j&apos;ai toujours eu soif d&apos;apprendre et de créer. Mon voyage en tant que développeur web a commencé avec une simple ligne de code mystérieuse et incompréhensible.
                 Après une première carrière dans la santé tourné quand même vers la technologie, j&apos;ai décidé de donner un nouvel élan à ma carrière et me diriger vers le développement web. 🧑‍💻 Après m&apos;être formé en autodidacte sur les bases du développement pendant plusieurs mois, j&apos;ai décidé d&apos;intégrer l&apos;école Le Wagon à Lille afin d&apos;approfondir mes connaissances, de monter en compétences et d&apos;avoir les bonnes pratiques.📚
-                <br/><br/>
                 🎯 Chaque jour,je me lance de nouveaux défis pour rester à la pointe des dernières tendances et technologies du web. Mon objectif est de créer des expériences exceptionnelles et intuitives. Si vous souhaitez donner vie à vos idées, parlons-en 💬!
             </p>
         </div>
