@@ -82,22 +82,22 @@ function Projects({}: Props) {
                         <div className='flex items-center space-x-2 justify-center'>
                             <Image
                             className='h-10 w-10'
-                            src="/nextjs.png"
-                            alt='portfolio'
+                            src="/Nextjs.png"
+                            alt='next'
                             width={40}
                             height={40}
                          />
                             <Image
                             className=' h-10 w-10'
                             src="/tailwind.png"
-                            alt='portfolio'
+                            alt='tailwind'
                             width={50}
                             height={40}
                             />
                             <Image
                             className=' h-10 w-10 rounded-full'
                             src='/sanity.png'
-                            alt='portfolio'
+                            alt='sanity'
                             width={50}
                             height={40}
                             />
